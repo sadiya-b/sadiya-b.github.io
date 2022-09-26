@@ -1,0 +1,96 @@
+/*global file settings are marked with a star(*)*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/*Splash screen style*/
+
+.intro{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #161616;
+  transition: 1s;
+}
+
+.intro-header{
+  position: absolute; /*since this a parent postion is abs*/
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.myname{
+  position: relative;/*relative to parent position*/
+  display: inline-block;/*this will allow us to move the elements*/
+  bottom: -20px;
+  opacity: 0;
+}
+
+.myname.active{
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+
+.myname.fade{
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+.navbar-brand,
+.nav-link{
+  color: #07481C;
+  font-weight: bold;
+}
+
+.nav-item.active>.nav-link{
+  color: #998989;
+   font-weight: bold;
+}
+
+.section-heading{
+  color: #998989;
+  font-weight: bold;
+  bottom: -10vh;
+}
+
+.logo>img{ 
+  width: 10;
+  height: 10;
+
+}
+
+.sub-heading{
+  color: darkgreen;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.skill-title{
+  font-weight: bolder;
+}
+
+.socials{
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.fab{
+  color: #000000;
+}
+
+#footer{
+  background-color: #9D9D9D;
+  text-align: center;
+}
+
+

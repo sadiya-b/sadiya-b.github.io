@@ -1,10 +1,216 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Sadiya home page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+
+  <title>Sadiya Bhawania</title>
 </head>
 <body>
 
-<p style="color:red;align:center;">Site launching on 9/26/2022.</p>
+<!--I'm creating a splash screen as my unique element in the project
+  and class intro represents all the content for it-->
+  <div class ="intro">
+    <h1 class = "intro-header">
+      <span class ="myname">Sadiya Bhawania </span>
+      <span class ="myname"> Web Developer and Full Stack Engineer</span>
+    </h1>
+  </div>
+  
+  <!--sadiya: check if tou need to add fixed-top to navbar or not-->
+
+  <nav class="navbar navbar-expand-lg" style="background-color:#FFD5BF;">
+    <div class="container">
+      <a class = "navbar-brand disable" href="./index.html">Sadiya Bhawania</a>
+      <button class = "navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded = "false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./timeline.html">Timeline</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!--About Section-->
+    <section id=about>
+      <div class="container mt-4 pt-4"> 
+      <h2 class="section-heading text-center"> ABOUT ME </h2>
+      <div class="row mt-4">
+        <div class="col-4">
+          <img class="img-fluid" src="./images/profile.jpeg" alt="Sadiya's picture">
+        </div>
+        <div class="row mt-3 col-8">
+        <p>
+          <strong style="color:darkgreen;font-size: 20px;">Who am I?</strong><br>
+          I am a full stack engineer, software engineer and web developer who loves a good challenge. I'm a social butterfly who loves building meaningful connections. I'm a life-long learner. I'm often described as practical, driven and passionate.
+          <br>
+          As a natural-born go-getter, my passion has continuously driven me to expand my knowledge, experience, and relationships. With a strong background and diverse skill set, I’m confident in the creative ideas and successful solutions I bring to the table.
+          <br>
+          <strong style="color:darkgreen;font-size: 20px;">Outside of work life</strong><br>
+          My mantra is work hard, play hard. I am a swimmer and fitness enthusiast. In fact, I started swimming at the age of 1 and it's also my calming excercise. I I enjoy travelling, outdoor sports and love to try new food. 
+          <br>
+          <strong style="color:darkgreen;font-size: 20px;">While you're here </strong> keep exploring my site to learn more information about me, and reach out directly with any questions.
+        </p>
+      </div>
+    </div>
+   </section>
+    
+    <!--Education Section-->
+    <section id="education">
+      <div class="container mt-4 pt-4">
+        <h2 class="section-heading text-center"> EDUCATION </h2>
+        <div class="row">
+          <div class="col-1">
+            <img class="logo img-fluid" src="./images/neuseals.png" alt="Northeastern university">
+          </div>
+          <div class="col-11">
+            <p class="major-course">Masters of Science in Computer Science</p>
+            <p class="tenure">January 2021 - Present </p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-1">
+            <img class="logo img-fluid" src="./images/vit-logo.png" alt="Vishwakarma Institute of Technology">
+          </div>
+          <div class="col-11">
+            <p class="major-course">Bachelors of Technology in Information Technology</p>
+            <p class="tenure">July 2015 - May 2018 </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills Section-->
+    <section id = "skills">
+      <div class="container"> 
+        <h2 class="section-heading text-center"> SKILLS </h2>
+        <div class="row">
+          <div class="col-4">
+            <span class="skill-title">Languages</span>
+            <ul>
+              <li>Java</li>
+              <li>C#</li>
+              <li>Python</li>
+              <li>Ruby</li>
+              <li>Perl(Scripting)</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <span class="skill-title">Web Tech</span>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Django</li>
+              <li>Spring Boot Framework</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <span class="skill-title">Database</span>
+            <ul>
+              <li>Microsoft SQL Server</li>
+              <li>SQLite</li>
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>Redux</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <span class="skill-title">Tools and Technologies</span>
+            <ul>
+              <li>.Net MVC</li>
+              <li>.Net Core</li>
+              <li>AWS (EC2, RDS)</li>
+              <li>Git</li>
+              <li>Jenkins</li>
+              <li>Docker</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <span class="skill-title">Other</span>
+            <ul>
+              <li>RESTful API</li>
+              <li>Redux (in progress)</li>
+              <li>Selenium</li>
+              <li>PowerBI</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <span class="skill-title">Certifications and Training</span>
+            <ul>
+              <li>Google UX Designer (50% completion)</li>
+              <li>AWS developer training (30% completion)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!--Contact Section-->
+    <section id="contact">
+      <div class="container mt-4 pt-4"> 
+      <h2 class="section-heading text-center"> CONTACT ME </h2>
+      <div class="row">
+        <div class="col-5 text-center">
+          <p>I am looking for full-time opportunities starting january 2023. Get in touch for work or otherwise! I love chats over cups of tea:)</p>
+        </div>
+        <div class="col-7">
+          <form>
+            <input type="text" class="form-control form-control-lg" placeholder="Name">
+            <input type="email" class="form-control mt-3" placeholder="Email">
+            <input type="text" class="form-control mt-3" placeholder="Subject">
+            <div class="mb-3 mt-3">
+              <textarea class="form-control" rows="5" id="message" name="text" placeholder="Message"></textarea>
+            </div>
+          </form>
+          <button type="button" class="btn btn-success mt-3">Contact Me</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container-fluid">
+      <div class="socials mt-4">
+        <a href="https://www.instagram.com/sadiya_bhawania/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/SadiyaBhawania1"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/sadiya-bhawania/"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div>
+        &copy; 2022 Sadiya Bhawania
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="text/javascript" src="./js/main.js"></script>
+
 
 </body>
 </html>

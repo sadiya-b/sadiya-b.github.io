@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+  font-weight: bolder;
+  color: darkgreen;
+}
+
+h5{
+  text-align: center;
+}
+
+.project-title{
+  color: #C3BCAC;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.project-stack{
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 18px;
+}
