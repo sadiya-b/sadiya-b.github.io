@@ -82,6 +82,8 @@ ul li.show div {
   opacity: 1;
 }
 
+/* CL note: the timeline items don't populate as expected on mobile 
+   maybe this section needs to be tweaked? */
 @media screen and (max-width: 900px) {
   ul li div {
     width: 250px;
