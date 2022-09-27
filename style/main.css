@@ -1,4 +1,7 @@
 /*global file settings are marked with a star(*)*/
+
+/* CL note: The 0 margin and 0 padding here is causing bullet points on
+   homepage and projects page to get cut off on mobile on the left */
 *{
   margin: 0;
   padding: 0;
