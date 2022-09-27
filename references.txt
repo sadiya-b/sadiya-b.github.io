@@ -1,3 +1,6 @@
 1. splash screen - https://www.youtube.com/watch?v=2ak37WrbSDg
-https://getbootstrap.com/docs/4.0/utilities/spacing/
-https://brad-portfolio.netlify.app/
+2. https://getbootstrap.com/docs/4.0/utilities/spacing/
+3. https://brad-portfolio.netlify.app/
+4. https://alvarotrigo.com/blog/html-css-timelines/ - Timeline
+5. https://bootcamp.uxdesign.cc/creating-user-personas-for-googles-ux-design-certificate-c0dbfdcd22c
+6. https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
